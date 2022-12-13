@@ -6,15 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34be865d-06cb-4174-9dce-9f7027f8be9a" name="Changes" comment="Creating DAO layer and some util classes.&#10;Added web module&#10;Added Tomcat&#10;Added Postgres jdbc driver in library of project">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/flight_servlets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/flight_servlets.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="34be865d-06cb-4174-9dce-9f7027f8be9a" name="Changes" comment="creating the first working link &quot;/flights&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC-webapp-flight_repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC-webapp-flight_repository.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/FlightDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/FlightDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/entity/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/util/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/util/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/FlightServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/FlightServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14774282",
     "project.structure.side.proportion": "0.21409921",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -177,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670852661438</updated>
       <workItem from="1670852664910" duration="10698000" />
-      <workItem from="1670913602898" duration="8730000" />
+      <workItem from="1670913602898" duration="14375000" />
     </task>
     <task id="LOCAL-00001" summary="Starting new project">
       <created>1670852730612</created>
@@ -200,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670862937513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating the first working link &quot;/flights&quot;">
+      <created>1670926974945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670926974945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +223,8 @@
     <MESSAGE value="few fix" />
     <MESSAGE value="Creating DAO layer and some util classes." />
     <MESSAGE value="Creating DAO layer and some util classes.&#10;Added web module&#10;Added Tomcat&#10;Added Postgres jdbc driver in library of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating DAO layer and some util classes.&#10;Added web module&#10;Added Tomcat&#10;Added Postgres jdbc driver in library of project" />
+    <MESSAGE value="creating the first working link &quot;/flights&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating the first working link &quot;/flights&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

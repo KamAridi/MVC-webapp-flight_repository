@@ -31,7 +31,6 @@ public class FlightServlet extends HttpServlet {
                         """.formatted(flightDto.getId(), flightDto.getDescription()));
             });
             writer.write("</ul>");
-            writer.write("777");
         }
     }
 }
