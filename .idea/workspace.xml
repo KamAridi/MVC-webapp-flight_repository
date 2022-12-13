@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="flight-servlets archive" />
+      <artifact name="flight-servlets" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34be865d-06cb-4174-9dce-9f7027f8be9a" name="Changes" comment="few fix">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="34be865d-06cb-4174-9dce-9f7027f8be9a" name="Changes" comment="Creating DAO layer and some util classes.&#10;Added web module&#10;Added Tomcat&#10;Added Postgres jdbc driver in library of project">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/flight_servlets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/flight_servlets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC-webapp-flight_repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC-webapp-flight_repository.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aridi/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dao/FlightDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/FlightDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/entity/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/util/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/util/ConnectionManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +28,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,10 +61,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Artifacts",
+    "last_opened_file_path": "C:/Users/Kam/Desktop/Github/MVC-webapp-flight_repository/MVC-webapp-flight_repository/lib/postgresql-42.5.1.jar",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14774282",
-    "project.structure.side.proportion": "0.16611296",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "project.structure.side.proportion": "0.21409921",
+    "settings.editor.selected.configurable": "inlay.hints"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -64,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dto" />
       <recent name="com.entity" />
     </key>
   </component>
@@ -164,7 +176,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670852661438</updated>
-      <workItem from="1670852664910" duration="9948000" />
+      <workItem from="1670852664910" duration="10698000" />
+      <workItem from="1670913602898" duration="8730000" />
     </task>
     <task id="LOCAL-00001" summary="Starting new project">
       <created>1670852730612</created>
@@ -180,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670853047764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating DAO layer and some util classes.&#10;Added web module&#10;Added Tomcat&#10;Added Postgres jdbc driver in library of project">
+      <created>1670862937513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670862937513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +220,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting new project" />
     <MESSAGE value="few fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="few fix" />
+    <MESSAGE value="Creating DAO layer and some util classes." />
+    <MESSAGE value="Creating DAO layer and some util classes.&#10;Added web module&#10;Added Tomcat&#10;Added Postgres jdbc driver in library of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating DAO layer and some util classes.&#10;Added web module&#10;Added Tomcat&#10;Added Postgres jdbc driver in library of project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

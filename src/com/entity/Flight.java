@@ -10,7 +10,7 @@ public class Flight {
     private String departureAirportCode;
     private LocalDateTime arrivalDate;
     private String arrivalAirportCode;
-    private Long aircraftId;
+    private Integer aircraftId;
     private FlightStatus status;
 
     @Override
@@ -74,11 +74,11 @@ public class Flight {
         this.arrivalAirportCode = arrivalAirportCode;
     }
 
-    public Long getAircraftId() {
+    public Integer getAircraftId() {
         return aircraftId;
     }
 
-    public void setAircraftId(Long aircraftId) {
+    public void setAircraftId(Integer aircraftId) {
         this.aircraftId = aircraftId;
     }
 
@@ -90,7 +90,7 @@ public class Flight {
         this.status = status;
     }
 
-    public Flight(Long id, String flightNo, LocalDateTime departureDate, String departureAirportCode, LocalDateTime arrivalDate, String arrivalAirportCode, Long aircraftId, FlightStatus status) {
+    public Flight(Long id, String flightNo, LocalDateTime departureDate, String departureAirportCode, LocalDateTime arrivalDate, String arrivalAirportCode, Integer aircraftId, FlightStatus status) {
         this.id = id;
         this.flightNo = flightNo;
         this.departureDate = departureDate;

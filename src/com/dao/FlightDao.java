@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class FlightDao implements Dao<Long, Flight> {
-
+    private static final FlightDao INSTANCE = new FlightDao();
     private static final String FIND_ALL = """
             SELECT id, flight_no, departure_date, departure_airport_code,
             arrival_date, arrival_airport_code, aircraft_id, status
@@ -61,8 +61,13 @@ public class FlightDao implements Dao<Long, Flight> {
                 resultSet.getObject("departure_airport_code", String.class),
                 resultSet.getObject("arrival_date", Timestamp.class).toLocalDateTime(),
                 resultSet.getObject("arrival_airport_code", String.class),
-                resultSet.getObject("aircraft_id", Long.class),
+                resultSet.getObject("aircraft_id", Integer.class),
                 FlightStatus.valueOf(resultSet.getObject("status", String.class))
         );
+    }
+    public static FlightDao getInstance(){
+        return INSTANCE;
+    }
+    private FlightDao() {
     }
 }
