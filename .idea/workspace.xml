@@ -6,9 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34be865d-06cb-4174-9dce-9f7027f8be9a" name="Changes" comment="creating the first working link &quot;/flights&quot;">
+    <list default="true" id="34be865d-06cb-4174-9dce-9f7027f8be9a" name="Changes" comment="adding display of purchased tickets to flights">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/flight_servlets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/flight_servlets.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/servlet/FlightServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/FlightServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/TicketServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/TicketServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
         <option value="Enum" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -55,8 +58,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Kam/Desktop/Github/MVC-webapp-flight_repository/MVC-webapp-flight_repository/lib/postgresql-42.5.1.jar",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/Kam/Desktop/Github/MVC-webapp-flight_repository/MVC-webapp-flight_repository/web/WEB-INF/jsp",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.14774282",
     "project.structure.side.proportion": "0.21409921",
     "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
@@ -71,6 +74,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.dto" />
       <recent name="com.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kam\Desktop\Github\MVC-webapp-flight_repository\MVC-webapp-flight_repository\web\WEB-INF\jsp" />
     </key>
   </component>
   <component name="RunManager">
@@ -171,7 +177,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670852661438</updated>
       <workItem from="1670852664910" duration="10698000" />
-      <workItem from="1670913602898" duration="14375000" />
+      <workItem from="1670913602898" duration="17911000" />
+      <workItem from="1671003303912" duration="9315000" />
     </task>
     <task id="LOCAL-00001" summary="Starting new project">
       <created>1670852730612</created>
@@ -201,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670926974945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding display of purchased tickets to flights">
+      <created>1670933884883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670933884883</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +238,8 @@
     <MESSAGE value="Creating DAO layer and some util classes." />
     <MESSAGE value="Creating DAO layer and some util classes.&#10;Added web module&#10;Added Tomcat&#10;Added Postgres jdbc driver in library of project" />
     <MESSAGE value="creating the first working link &quot;/flights&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating the first working link &quot;/flights&quot;" />
+    <MESSAGE value="adding display of purchased tickets to flights" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding display of purchased tickets to flights" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
