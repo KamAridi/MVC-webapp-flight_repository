@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="flight-servlets archive">
-    <output-path>$PROJECT_DIR$/out/artifacts/flight_servlets_archive</output-path>
-    <root id="archive" name="flight-servlets archive.war">
-      <element id="artifact" artifact-name="flight-servlets" />
-    </root>
-  </artifact>
-</component>
